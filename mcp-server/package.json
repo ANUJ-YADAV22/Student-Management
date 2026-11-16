@@ -1,0 +1,15 @@
+{
+  "name": "student-system-mcp-server",
+  "version": "1.0.0",
+  "description": "Unified MCP Server for Student Management System - Controls Website Theme, MongoDB Schema & Data, and Render Deployments",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}
